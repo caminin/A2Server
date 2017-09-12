@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>{{ titre_url }}</title>
+    <!-- CSS -->
+
+    <!-- Font Awesome Icons -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <!-- Ionicons -->
+    <link href="http://code.ionicframework.com/ionicons/2.0.0/css/ionicons.min.css" rel="stylesheet" type="text/css" />
+
+
+    <!-- Bootstrap 3.3.2 -->
+    <link rel="stylesheet" href="{{ asset('plugins/bootstrap/css/bootstrap.min.css') }}">
+    <!-- iCheck for checkboxes and radio inputs -->
+    <link rel="stylesheet" href="{{ asset('plugins/iCheck/all.css') }}">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="{{ asset('plugins/adminLTE/css/AdminLTE.min.css') }}">
+    <!-- AdminLTE Skins. Choose a skin from the css/skins
+       folder instead of downloading all of them to reduce the load. -->
+    <link rel="stylesheet" href="{{ asset('plugins/adminLTE/css/AdminLTE.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('plugins/adminLTE/css/skins/_all-skins.min.css') }}">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="{{ asset('plugins/iCheck/all.css') }}">
+    <!-- bootstrap wysihtml5 - text editor -->
+    <link rel="stylesheet" href="{{ asset('plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css') }}">
+    <!-- Sweetalert -->
+    <link rel="stylesheet" href="{{ asset('plugins/sweetalert/sweetalert.css') }}">
+
+    {% block css %}
+
+    {% endblock %}
+</head>
+
+
+<body class="skin-blue">
+<div class="wrapper">
+
+    {{ render(controller("A2CoreBundle:Menu:index")) }}
+
+    {% block body %}
+        Page par défaut
+    {% endblock %}
+    <footer class="main-footer">
+        <div class="pull-right hidden-xs">
+            <b>Version</b> 1.2
+        </div>
+        <strong>2017 Créé par  <a href="http://www.a2display.fr">A2Display</a>.</strong>
+    </footer>
+</div><!-- ./wrapper -->
+
+</body>
+
+
+
+<!-- JAVASCRIPT -->
+<!-- jQuery 2.1.3 -->
+<script src="{{ asset('plugins/jQuery/jQuery-2.1.3.min.js') }}"></script>
+
+<!-- jQuery UI 1.11.2 -->
+<script src="{{ asset('plugins/JQuery-UI/jquery-ui.min.js') }}"></script>
+
+<!-- Bootstrap 3.3.2 JS -->
+<script src="{{ asset('plugins/bootstrap/js/bootstrap.min.js') }}"></script>
+
+<!-- Sweetalert -->
+<script src="{{ asset('plugins/sweetalert/sweetalert.min.js') }}"></script>
+
+<!-- Bootstrap WYSIHTML5 -->
+<script src="{{ asset('plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js') }}"></script>
+
+<!-- iCheck -->
+<script src="{{ asset('plugins/iCheck/icheck.min.js') }}"></script>
+
+<!-- Slimscroll -->
+<script src="{{ asset('plugins/slimScroll/jquery.slimscroll.min.js') }}"></script>
+
+<!-- FastClick -->
+<script src="{{ asset('plugins/fastclick/fastclick.min.js') }}"></script>
+
+<!-- AdminLTE App -->
+<script src="{{ asset('plugins/adminLTE/js/app.min.js') }}"></script>
+
+{% block js %}
+
+
+{% endblock %}
+
+</html>

@@ -1,0 +1,36 @@
+a2_core_homepage:
+    path:     /
+    defaults: { _controller: A2CoreBundle:Home:index }
+    
+hello_world:
+    path:     /hello_world
+    defaults: { _controller: A2CoreBundle:Home:index }
+
+a2_core_accueil:
+    path:     /accueil
+    defaults: { _controller: A2CoreBundle:Home:index }
+
+a2_core_add_file:
+    path:     /add_file
+    defaults: { _controller: A2CoreBundle:File:addFile }
+
+a2_core_list_file:
+    path:     /list_files
+    defaults: { _controller: A2CoreBundle:Home:index }
+
+a2_core_categories:
+    path:     /ajax/categories/list_with_parent
+    defaults: { _controller: A2CoreBundle:Category:getListCategoriesInside }
+
+a2_core_borne:
+    path:       /borne
+    defaults:   { _controller: A2CoreBundle:Borne:index}
+
+tmp_a2_core_settings:
+    path:     /settings
+    defaults: { _controller: A2CoreBundle:Theme:index }
+
+tmp_a2_core_theme_test:
+    path:       /test/theme
+    defaults:   { _controller: A2CoreBundle:Theme:index }
+

@@ -1,0 +1,48 @@
+{% extends "@A2Core/Layout/main_layout.html.twig" %}
+
+{% block title_url %}
+    Ajout d'un document
+{% endblock %}
+
+
+{% block body %}
+
+
+    <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+            <h1>
+                Ecran
+                <small>Menu Principal</small>
+            </h1>
+            <ol class="breadcrumb">
+                <li><a href="#"><i class="fa fa-dashboard"></i> Accueil</a></li>
+                <li class="active">Ecran</li>
+            </ol>
+        </section>
+
+        <!-- Main content -->
+        <section class="content">
+            <h3>Formulaire d'annonce</h3>
+
+
+            <div class="well">
+
+                {{ form(form) }}
+
+            </div>
+        </section><!-- /.content -->
+    </div><!-- /.content-wrapper -->
+
+
+{% endblock %}
+
+
+{% block js %}
+    {% javascripts '@XmonColorPickerTypeBundle/Resources/public/js/jscolor.min.js' %}
+    <script type="text/javascript" src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+{% endblock %}
+
+
+

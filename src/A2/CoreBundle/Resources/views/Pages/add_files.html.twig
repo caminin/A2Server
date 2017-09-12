@@ -1,0 +1,124 @@
+{% extends "@A2Core/Layout/main_layout.html.twig" %}
+
+{% block title_url %}
+    Ajout d'un document
+<{% endblock %}
+
+{% block css %}
+    <!-- Bootstrap time Picker -->
+    <link rel="stylesheet" href="{{ asset('plugins/timepicker/bootstrap-timepicker.min.css') }}">
+    <!-- daterange picker -->
+    <link rel="stylesheet" href="{{ asset('plugins/daterangepicker/daterangepicker-bs3.css') }}">
+
+{% endblock %}
+
+{% block js %}
+    <!-- daterangepicker -->
+    <script src="{{ asset('plugins/daterangepicker/daterangepicker.js') }}"></script>
+    <script src="{{ asset('bundles/a2core/js/add_file.js') }}"></script>
+
+{% endblock %}
+
+{% block body %}
+{% form_theme form '@A2Core/Form/file_form_view.html.twig' %}
+
+
+    <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+            <h1>
+                Ecran
+                <small>Menu Principal</small>
+            </h1>
+            <ol class="breadcrumb">
+                <li><a href="#"><i class="fa fa-dashboard"></i> Accueil</a></li>
+                <li class="active">Ecran</li>
+            </ol>
+        </section>
+
+        <!-- Main content -->
+        <section class="content">
+            <!--<form role="form" action="add_file.php" method="post" enctype="multipart/form-data">-->
+            {{ form_start(form) }}
+
+                <div class=row>
+
+                    <div class="column">
+                        <div class="col-md-6">
+                            <!-- general form elements -->
+                            <div class="box box-primary">
+                                <div class="box-header">
+                                    <h3 class="box-title">Le fichier a ajouté</h3>
+                                </div><!-- /.box-header -->
+                                <!-- form start -->
+
+                                <div class="box-body">
+
+                                    {{ form_widget(form.filesName) }}
+
+                                    <div class="form-group">
+                                        <label for="exampleInputFile">Emplacement du Fichier</label>
+                                        {{ form_widget(form.imageFile) }}
+
+                                    </div>
+
+                                </div><!-- /.box-body -->
+                            </div><!-- /.box -->
+                            <!-- general form elements -->
+                            <div class="box box-primary">
+                                <div class="box-header">
+                                    <h3 class="box-title">Catégorie du fichier</h3>
+                                </div><!-- /.box-header -->
+
+                                <div class="box-body">
+                                    {{ form_widget(form.filesCategory,{'categories': categories,'count' : count}) }}
+                                </div><!-- /.box-body -->
+                            </div><!-- /.box -->
+
+                        </div>
+                    </div><!-- Column-->
+
+                    <div class="column">
+                        <div class="col-md-5">
+                            <!-- general form elements -->
+                            <div class="box box-primary">
+                                <div class="box-header">
+                                    <h3 class="box-title">Type d'affichage du fichier</h3>
+                                </div><!-- /.box-header -->
+
+                                <div class="box-body">
+                                    <!-- radio -->
+                                    <div class="form-group">
+                                        {{ form_widget(form.filesDisplayType) }}
+                                    </div>
+                                </div><!-- /.box-body -->
+                            </div><!-- /.box -->
+
+                            <div id="boxCalendar" style="display: block;">
+                                <div class="box box-warning" >
+                                    <div class="box-header">
+                                        <h3 class="box-title">Calendrier de diffusion</h3>
+                                    </div><!-- /.box-header -->
+                                    <div class="box-body">
+                                        <!-- Date and time range -->
+                                        {{ form_widget(form.DatePicker) }}
+                                    </div>
+                                </div>
+                            </div><!-- Boxcalender-->
+                        </div><!-- Column-->
+                    </div><!-- Column-->
+
+
+                </div><!-- ROW car le footer marche pas sinon -->
+                <div class="row">
+                    <div style="margin-left:47%; margin-top:1%;">
+                        <button style="font-size:29px;" type="submit" class="btn btn-primary" >Ajouter</button>
+                    </div>
+                </div>
+            {{ form_end(form) }}
+            <!--</form>-->
+        </section><!-- /.content -->
+    </div><!-- /.content-wrapper -->
+
+
+{% endblock %}

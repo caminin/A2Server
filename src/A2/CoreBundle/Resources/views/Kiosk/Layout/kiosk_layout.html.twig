@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>{{ titre_url }}</title>
+    <!-- CSS -->
+
+    <!-- Font Awesome Icons -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <!-- Ionicons -->
+    <link href="http://code.ionicframework.com/ionicons/2.0.0/css/ionicons.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- Bootstrap 3.3.2 -->
+    <link rel="stylesheet" href="{{ asset('plugins/bootstrap/css/bootstrap.min.css') }}">
+
+    <link rel="stylesheet" href="{{ asset('bundles/a2core/css/borne/borne_layout.css') }}">
+
+    {% block css %}
+
+    {% endblock %}
+</head>
+
+
+<body >
+<div class="wrapper">
+
+    {% block body %}
+        Page par défaut
+    {% endblock %}
+</div><!-- ./wrapper -->
+
+</body>
+
+
+
+<!-- JAVASCRIPT -->
+<!-- jQuery 2.1.3 -->
+<script src="{{ asset('plugins/jQuery/jQuery-2.1.3.min.js') }}"></script>
+
+<!-- jQuery UI 1.11.2 -->
+<script src="{{ asset('plugins/JQuery-UI/jquery-ui.min.js') }}"></script>
+
+<!-- Bootstrap 3.3.2 JS -->
+<script src="{{ asset('plugins/bootstrap/js/bootstrap.min.js') }}"></script>
+{% block js %}
+
+
+{% endblock %}
+
+</html>

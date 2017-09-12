@@ -1,0 +1,5 @@
+{
+    "require": {
+        "xmon/color-picker-type-bundle": "^1.0"
+    }
+}

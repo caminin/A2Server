@@ -1,0 +1,902 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="fa9c8f69-e032-4a7b-898d-9ac67f0818b0" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="4_categories_columns.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Resources/public/css/borne/4_categories_columns.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1751">
+              <caret line="103" column="12" lean-forward="false" selection-start-line="103" selection-start-column="12" selection-end-line="103" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="4_categories_columns.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Kiosk/Home/4_categories_columns.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Home_4_ColumnsType.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Form/Type/Theme/Home_4_ColumnsType.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+              <folding>
+                <element signature="e#49#89#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThemeController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Controller/ThemeController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="734">
+              <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+              <folding>
+                <element signature="e#44#84#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1989">
+              <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>bundles/a2core/</find>
+      <find>refre</find>
+      <find>Jquery</find>
+      <find>file_name_view</find>
+      <find>sous_</find>
+      <find>file_form_v</find>
+      <find>dateran</find>
+      <find>typeof</find>
+      <find>alert</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/web/bundles/a2core/js/add_file.js" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Form/form_views/file_name_view.html.twig" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Form/file_name_view.html.twig" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Form/FileNameType.php" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Form/FileDisplayDateType.php" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Form/FileCategory.php" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Resources/public/css/add_file.css" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Form/FileDatePickerType.php" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Borne/file_form_view.html.twig" />
+        <option value="$PROJECT_DIR$/web/bundles/a2core/css/borne/test.css" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Entity/Categories.php" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Controller/CategoryController.php" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Form/FileCategoryType.php" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Entity/Files.php" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Form/file_form_view.html.twig" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Form/FileDisplayTypeType.php" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Resources/public/js/add_file.js" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Borne/accueil.html.twig" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Pages/add_files.html.twig" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Kiosk/home/4_categories_columns.html.twig" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Layout/main_layout.html.twig" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Layout/menu_layout.html.twig" />
+        <option value="$PROJECT_DIR$/web/bundles/a2core/css/borne/borne_layout.css" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Kiosk/Layout/kiosk_layout.html.twig" />
+        <option value="$PROJECT_DIR$/web/bundles/a2core/css/borne/4_categories_columns.css" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Entity/Theme/Home_4_Columns.php" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Controller/BorneController2.php" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Controller/Borne2Controller.php" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Controller/ThemeController" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Form/Home_4_ColumnsType.php" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Test/test_categories.html.twig" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Controller/BorneController.php" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Controller/HomeController.php" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Form/Theme/FileListCategoryType.php" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Form/FilesType.php" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Controller/FileController.php" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Form/Type/Theme/FileListCategoryType.php" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Form/Type/AddFile/FileCategoryType.php" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Form/Type/AddFile/FileDatePickerType.php" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Form/Type/AddFile/FileDisplayTypeType.php" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Form/Type/AddFile/FileNameType.php" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Form/Type/FilesType.php" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Form/theme_form_view.html.twig" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Kiosk/Home/4_categories_columns.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Resources/public/css/borne/4_categories_columns.css" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Entity/Home_4_Columns.php" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Form/Type/Theme/Home_4_ColumnsType.php" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Controller/ThemeController.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <exe-path />
+    <config-path />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/app/config/save/vendor/kriswallsmith/assetic/package.json" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/symfony" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/sensiolabs/security-checker" />
+      <path value="$PROJECT_DIR$/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler" />
+      <path value="$PROJECT_DIR$/vendor/sensio/distribution-bundle" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/sensio/generator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-apcu" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/twig/extensions" />
+      <path value="$PROJECT_DIR$/vendor/jms/metadata" />
+      <path value="$PROJECT_DIR$/vendor/vich/uploader-bundle" />
+      <path value="$PROJECT_DIR$/vendor/pagerfanta/pagerfanta" />
+      <path value="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle" />
+      <path value="$PROJECT_DIR$/vendor/kriswallsmith/assetic" />
+      <path value="$PROJECT_DIR$/vendor/xmon/color-picker-type-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/assetic-bundle" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="997" />
+    <option name="y" value="1079" />
+    <option name="width" value="1928" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="A2Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="A2Server" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="A2Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="A2Server" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="A2Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="A2Server" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="A2Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="A2Server" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="A2" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="A2Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="A2Server" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="A2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="CoreBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="A2Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="A2Server" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="A2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="CoreBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="A2Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="A2Server" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="A2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="CoreBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="A2Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="A2Server" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="A2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="CoreBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path" value="/usr/bin/node" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/A2/CoreBundle/Form/Type" />
+      <recent name="$PROJECT_DIR$/src/A2/CoreBundle/Form/Theme" />
+      <recent name="$PROJECT_DIR$/src/A2/CoreBundle/Form/AddFile" />
+      <recent name="$PROJECT_DIR$/web/bundles/a2core" />
+      <recent name="$PROJECT_DIR$/src/A2/CoreBundle/Entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/A2/CoreBundle/Form/Theme" />
+      <recent name="$PROJECT_DIR$/web/bundles/a2core/img" />
+      <recent name="$PROJECT_DIR$/src/A2/CoreBundle/Resources/public/img" />
+      <recent name="$PROJECT_DIR$/src/A2/CoreBundle/Controller" />
+      <recent name="$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Form/Theme" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>$USER_HOME$/.subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fa9c8f69-e032-4a7b-898d-9ac67f0818b0" name="Default" comment="" />
+      <created>1502472765357</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1502472765357</updated>
+      <workItem from="1502472768489" duration="296000" />
+      <workItem from="1502473072330" duration="784000" />
+      <workItem from="1502960598113" duration="638000" />
+      <workItem from="1502961431748" duration="1202000" />
+      <workItem from="1502983802366" duration="2438000" />
+      <workItem from="1503047006644" duration="1470000" />
+      <workItem from="1503304458147" duration="88165000" />
+      <workItem from="1504105529204" duration="33750000" />
+      <workItem from="1504539559944" duration="11075000" />
+      <workItem from="1504700573296" duration="3879000" />
+      <workItem from="1504708745084" duration="22104000" />
+      <workItem from="1504795593670" duration="15944000" />
+      <workItem from="1505205942301" duration="2415000" />
+      <workItem from="1505223307422" duration="1109000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="185269000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="997" y="1079" width="1920" height="1080" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14739583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32870865" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/A2CoreBundle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Response.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bundles/a2core/js/add_file.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1240">
+          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/cache/dev/twig/3d/3d26d162df77df1587c3136ab58bb372022c4ae2abc8544f5cd784c492a939eb.php" />
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Form/FileDisplayDateType.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/FormBuilderInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Resources/public/css/add_file.css" />
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Form/CategoryType" />
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Entity/DisplayDate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Controller/CategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Entity/Categories.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="123" column="6" lean-forward="false" selection-start-line="123" selection-start-column="6" selection-end-line="123" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Resources/public/js/add_file.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Entity/Menus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Borne/accueil.html.twig" />
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Pages/home.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bundles/a2core/css/borne/borne_layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Kiosk/Layout/kiosk_layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="84" lean-forward="false" selection-start-line="16" selection-start-column="84" selection-end-line="16" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Form/Theme/file_form_view.html.twig" />
+    <entry file="file://$PROJECT_DIR$/web/bundles/a2core/css/borne/4_categories_columns.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Resources/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Layout/menu_layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="28" lean-forward="true" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Controller/ThemeController" />
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Layout/main_layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="45" column="18" lean-forward="false" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Pages/add_files.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Test/test_categories.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="72" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Entity/Parameters.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2669">
+          <caret line="157" column="0" lean-forward="false" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Controller/MenuController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="52" lean-forward="false" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="52" />
+          <folding>
+            <element signature="e#45#76#0#PHP" expanded="false" />
+            <element signature="e#909#934#1#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Controller/BorneController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+          <folding>
+            <element signature="e#44#84#0#PHP" expanded="false" />
+            <element signature="e#445#474#1#PHP" expanded="false" />
+            <element signature="e#668#724#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Resources/public/img/flag_fr.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bundles/a2core/img/flag_eng.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Controller/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="86" lean-forward="false" selection-start-line="15" selection-start-column="86" selection-end-line="15" selection-end-column="86" />
+          <folding>
+            <element signature="e#288#323#1#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Repository/Home_4_ColumnsRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Form/file_form_view.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="42" lean-forward="false" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Form/Type/AddFile/FileCategoryType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Form/Type/AddFile/FileDatePickerType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Form/Type/AddFile/FileDisplayTypeType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Form/Type/FilesType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Form/Type/AddFile/FileNameType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Form/theme_form_view.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Entity/Files.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="35" column="4" lean-forward="false" selection-start-line="35" selection-start-column="4" selection-end-line="39" selection-end-column="27" />
+          <folding>
+            <element signature="e#247#389#0#PHP" expanded="false" />
+            <element signature="e#408#547#0#PHP" expanded="false" />
+            <element signature="e#570#672#0#PHP" expanded="false" />
+            <element signature="e#702#883#0#PHP" expanded="false" />
+            <element signature="e#917#1017#0#PHP" expanded="false" />
+            <element signature="e#1055#1163#0#PHP" expanded="false" />
+            <element signature="e#1199#1303#0#PHP" expanded="false" />
+            <element signature="e#1332#1401#0#PHP" expanded="false" />
+            <element signature="e#1433#1597#0#PHP" expanded="false" />
+            <element signature="e#1603#1654#0#PHP" expanded="false" />
+            <element signature="e#1659#1720#0#PHP" expanded="false" />
+            <element signature="e#1726#1825#0#PHP" expanded="false" />
+            <element signature="e#1830#1944#0#PHP" expanded="false" />
+            <element signature="e#1950#2011#0#PHP" expanded="false" />
+            <element signature="e#2016#2091#0#PHP" expanded="false" />
+            <element signature="e#2097#2204#0#PHP" expanded="false" />
+            <element signature="e#2209#2339#0#PHP" expanded="false" />
+            <element signature="e#2345#2410#0#PHP" expanded="false" />
+            <element signature="e#2415#2498#0#PHP" expanded="false" />
+            <element signature="e#2504#2622#0#PHP" expanded="false" />
+            <element signature="e#2627#2773#0#PHP" expanded="false" />
+            <element signature="e#2779#2851#0#PHP" expanded="false" />
+            <element signature="e#2856#2947#0#PHP" expanded="false" />
+            <element signature="e#2953#3066#0#PHP" expanded="false" />
+            <element signature="e#3071#3213#0#PHP" expanded="false" />
+            <element signature="e#3219#3287#0#PHP" expanded="false" />
+            <element signature="e#3292#3381#0#PHP" expanded="false" />
+            <element signature="e#3387#3889#0#PHP" expanded="false" />
+            <element signature="e#3899#4352#0#PHP" expanded="false" />
+            <element signature="e#4188#4346#0#PHP" expanded="false" />
+            <element signature="e#4358#4433#0#PHP" expanded="false" />
+            <element signature="e#4443#4545#0#PHP" expanded="false" />
+            <element signature="e#4550#4664#0#PHP" expanded="false" />
+            <element signature="e#4670#4734#0#PHP" expanded="false" />
+            <element signature="e#4739#4814#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Controller/FileController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="25" selection-end-column="10" />
+          <folding>
+            <element signature="e#44#81#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Resources/public/css/borne/4_categories_columns.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1751">
+          <caret line="103" column="12" lean-forward="false" selection-start-line="103" selection-start-column="12" selection-end-line="103" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Entity/Home_4_Columns.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding>
+            <element signature="e#320#490#0#PHP" expanded="false" />
+            <element signature="e#518#657#0#PHP" expanded="false" />
+            <element signature="e#680#862#0#PHP" expanded="false" />
+            <element signature="e#895#1077#0#PHP" expanded="false" />
+            <element signature="e#1116#1298#0#PHP" expanded="false" />
+            <element signature="e#1338#1520#0#PHP" expanded="false" />
+            <element signature="e#1554#1656#0#PHP" expanded="false" />
+            <element signature="e#1686#1795#0#PHP" expanded="false" />
+            <element signature="e#1831#1941#0#PHP" expanded="false" />
+            <element signature="e#1978#2081#0#PHP" expanded="false" />
+            <element signature="e#2112#2216#0#PHP" expanded="false" />
+            <element signature="e#2247#2349#0#PHP" expanded="false" />
+            <element signature="e#2379#2522#0#PHP" expanded="false" />
+            <element signature="e#2558#2708#0#PHP" expanded="false" />
+            <element signature="e#2750#2893#0#PHP" expanded="false" />
+            <element signature="e#2929#3066#0#PHP" expanded="false" />
+            <element signature="e#3096#3200#0#PHP" expanded="false" />
+            <element signature="e#3234#3344#0#PHP" expanded="false" />
+            <element signature="e#3384#3495#0#PHP" expanded="false" />
+            <element signature="e#3536#3641#0#PHP" expanded="false" />
+            <element signature="e#3675#3779#0#PHP" expanded="false" />
+            <element signature="e#3812#3881#0#PHP" expanded="false" />
+            <element signature="e#3913#4069#0#PHP" expanded="false" />
+            <element signature="e#4075#4126#0#PHP" expanded="false" />
+            <element signature="e#4131#4192#0#PHP" expanded="false" />
+            <element signature="e#4198#4230#0#PHP" expanded="false" />
+            <element signature="e#4235#4316#0#PHP" expanded="false" />
+            <element signature="e#4322#4367#0#PHP" expanded="false" />
+            <element signature="e#4372#4475#0#PHP" expanded="false" />
+            <element signature="e#4481#4513#0#PHP" expanded="false" />
+            <element signature="e#4518#4611#0#PHP" expanded="false" />
+            <element signature="e#4617#4668#0#PHP" expanded="false" />
+            <element signature="e#4673#4800#0#PHP" expanded="false" />
+            <element signature="e#4806#4838#0#PHP" expanded="false" />
+            <element signature="e#4843#4938#0#PHP" expanded="false" />
+            <element signature="e#4944#4996#0#PHP" expanded="false" />
+            <element signature="e#5001#5132#0#PHP" expanded="false" />
+            <element signature="e#5138#5170#0#PHP" expanded="false" />
+            <element signature="e#5175#5258#0#PHP" expanded="false" />
+            <element signature="e#5264#5310#0#PHP" expanded="false" />
+            <element signature="e#5315#5422#0#PHP" expanded="false" />
+            <element signature="e#5430#5538#0#PHP" expanded="false" />
+            <element signature="e#5543#5657#0#PHP" expanded="false" />
+            <element signature="e#5663#5724#0#PHP" expanded="false" />
+            <element signature="e#5729#5804#0#PHP" expanded="false" />
+            <element signature="e#5810#5930#0#PHP" expanded="false" />
+            <element signature="e#5935#6073#0#PHP" expanded="false" />
+            <element signature="e#6079#6146#0#PHP" expanded="false" />
+            <element signature="e#6151#6238#0#PHP" expanded="false" />
+            <element signature="e#6244#6366#0#PHP" expanded="false" />
+            <element signature="e#6371#6513#0#PHP" expanded="false" />
+            <element signature="e#6519#6587#0#PHP" expanded="false" />
+            <element signature="e#6592#6681#0#PHP" expanded="false" />
+            <element signature="e#6687#6797#0#PHP" expanded="false" />
+            <element signature="e#6802#6920#0#PHP" expanded="false" />
+            <element signature="e#6926#6988#0#PHP" expanded="false" />
+            <element signature="e#6993#7070#0#PHP" expanded="false" />
+            <element signature="e#7076#7186#0#PHP" expanded="false" />
+            <element signature="e#7191#7309#0#PHP" expanded="false" />
+            <element signature="e#7315#7377#0#PHP" expanded="false" />
+            <element signature="e#7382#7459#0#PHP" expanded="false" />
+            <element signature="e#7465#7573#0#PHP" expanded="false" />
+            <element signature="e#7578#7692#0#PHP" expanded="false" />
+            <element signature="e#7698#7759#0#PHP" expanded="false" />
+            <element signature="e#7764#7839#0#PHP" expanded="false" />
+            <element signature="e#7845#7878#0#PHP" expanded="false" />
+            <element signature="e#7883#7970#0#PHP" expanded="false" />
+            <element signature="e#7976#8025#0#PHP" expanded="false" />
+            <element signature="e#8030#8145#0#PHP" expanded="false" />
+            <element signature="e#8151#8184#0#PHP" expanded="false" />
+            <element signature="e#8189#8288#0#PHP" expanded="false" />
+            <element signature="e#8294#8349#0#PHP" expanded="false" />
+            <element signature="e#8354#8493#0#PHP" expanded="false" />
+            <element signature="e#8499#8532#0#PHP" expanded="false" />
+            <element signature="e#8537#8624#0#PHP" expanded="false" />
+            <element signature="e#8630#8679#0#PHP" expanded="false" />
+            <element signature="e#8684#8799#0#PHP" expanded="false" />
+            <element signature="e#8805#8838#0#PHP" expanded="false" />
+            <element signature="e#8843#8918#0#PHP" expanded="false" />
+            <element signature="e#8924#8967#0#PHP" expanded="false" />
+            <element signature="e#8972#9063#0#PHP" expanded="false" />
+            <element signature="e#9072#9212#0#PHP" expanded="false" />
+            <element signature="e#9218#9698#0#PHP" expanded="false" />
+            <element signature="e#9511#9669#0#PHP" expanded="false" />
+            <element signature="e#9704#9783#0#PHP" expanded="false" />
+            <element signature="e#9789#9922#0#PHP" expanded="false" />
+            <element signature="e#9928#10409#0#PHP" expanded="false" />
+            <element signature="e#10223#10381#0#PHP" expanded="false" />
+            <element signature="e#10415#10496#0#PHP" expanded="false" />
+            <element signature="e#10502#10635#0#PHP" expanded="false" />
+            <element signature="e#10641#11132#0#PHP" expanded="false" />
+            <element signature="e#10946#11104#0#PHP" expanded="false" />
+            <element signature="e#11138#11229#0#PHP" expanded="false" />
+            <element signature="e#11235#11368#0#PHP" expanded="false" />
+            <element signature="e#11374#11867#0#PHP" expanded="false" />
+            <element signature="e#11681#11839#0#PHP" expanded="false" />
+            <element signature="e#11873#11966#0#PHP" expanded="false" />
+            <element signature="e#11972#12105#0#PHP" expanded="false" />
+            <element signature="e#12111#12590#0#PHP" expanded="false" />
+            <element signature="e#12404#12562#0#PHP" expanded="false" />
+            <element signature="e#12596#12675#0#PHP" expanded="false" />
+            <element signature="e#12681#12792#0#PHP" expanded="false" />
+            <element signature="e#12797#12911#0#PHP" expanded="false" />
+            <element signature="e#12917#12981#0#PHP" expanded="false" />
+            <element signature="e#12986#13061#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Form/Type/Theme/ListCategoryType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Kiosk/Home/4_categories_columns.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="4" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1989">
+          <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Form/Type/Theme/Home_4_ColumnsType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <folding>
+            <element signature="e#49#89#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Controller/ThemeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="734">
+          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding>
+            <element signature="e#44#84#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

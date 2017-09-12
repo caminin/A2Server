@@ -1,0 +1,64 @@
+{% extends "A2CoreBundle:Kiosk/Layout:kiosk_layout.html.twig" %}
+
+{% block css %}
+    <link rel="stylesheet" href="{{ asset('bundles/a2core/css/borne/4_categories_columns.css') }}">
+    <style>
+        body {
+            background-color: #{{ entity.colorBackground }};
+        }
+    </style>
+
+
+{% endblock %}
+
+{% block body %}
+
+
+    <div class="logo_box" style="background-color:#{{ entity.colorLogo }};">
+        <div class="logo full-size" style='background-image:url("{{ vich_uploader_asset(entity, 'imageLogoFile') }}")'></div>
+    </div>
+
+    <div class="image border row" >
+        <div class="border box image1 col-sm-3" >
+            <div class="full-size" style='background-image:url("{{ vich_uploader_asset(entity, 'imageLeftFile') }}")'>
+                <p class="category_text" style="background-color:#{{ entity.colorCategories }}">plop</p>
+            </div>
+        </div>
+
+        <div class="border box image2 col-sm-3" >
+            <div class="full-size" style='background-image:url("{{ vich_uploader_asset(entity, 'imageLeftCenterFile') }}")'>
+                <p class="category_text" style="background-color:#{{ entity.colorCategories }}">plop</p>
+            </div>
+        </div>
+
+        <div class="border box image3 col-sm-3">
+            <div class="full-size" style='background-image:url("{{ vich_uploader_asset(entity, 'imageRightCenterFile') }}")'>
+                <p class="category_text" style="background-color:#{{ entity.colorCategories }}">plop</p>
+            </div>
+        </div>
+
+        <div class="border box image4 col-sm-3">
+            <div class="full-size" style='background-image:url("{{ vich_uploader_asset(entity, 'imageRightFile') }}")'>
+                <p class="category_text" style="background-color:#{{ entity.colorCategories }}">plop</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="text col-sm-8">
+        {{ entity.textBottom }}
+    </div>
+
+    <div class="flag_box col-sm-4">
+        <div class="col-sm-8 "></div>
+        <div class="full-size col-sm-2">
+            <div class="col-sm-12 flag_group"></div>
+            <img class="flag c" src="{{ asset('bundles/a2core/img/flag_fr.svg') }}">
+        </div>
+        <div class="full-size col-sm-2">
+
+            <div class="col-sm-12 flag_group"></div>
+            <img class="flag " src="{{ asset('bundles/a2core/img/flag_eng.svg') }}">
+        </div>
+    </div>
+
+{% endblock %}

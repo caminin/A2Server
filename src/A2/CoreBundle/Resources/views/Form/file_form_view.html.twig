@@ -1,0 +1,82 @@
+{% block file_name_widget %}
+    {% spaceless %}
+        <div class="form-group" xmlns:display="http://www.w3.org/1999/xhtml">
+            <label>Nom du fichier (Quand on le voit)</label>
+            {% set type = 'file_name' %}
+            {% spaceless %}
+                {% set type = type|default('text') %}
+                <input class="form-control" placeholder="Entrez ..." type="{{ type }}" {{ block('widget_attributes') }} {% if value is not empty %}value="{{ value }}" {% endif %}/>
+            {% endspaceless %}
+        </div>
+    {% endspaceless %}
+{% endblock %}
+
+
+
+{% block file_display_type_widget %}
+    {% spaceless %}
+        <div class="form-group" {{ block('widget_container_attributes') }}>
+            {% for child in form %}
+                    <div class="radio">
+                        <label>
+                            {{ form_widget(child) }}
+                            {{ child.vars.label }}
+                        </label>
+                    </div>
+            {% endfor %}
+        </div>
+    {% endspaceless %}
+{% endblock %}
+
+
+
+
+{% block file_category_widget %}
+    {% spaceless %}
+        {% set type = 'file_category' %}
+        <!-- select -->
+        <div class="form-group">
+            <label>Sélectionner la catégorie</label>
+            <select id="category" class="form-control" name="category" >
+                <option id="title_category" value="stop" disabled selected>Choisissez une catégorie</option>
+                {% for category in categories %}
+                    <option value="{{ category.id }}">{{ category.categoriesName }}</option>
+                {% endfor %}
+            </select>
+        </div>
+
+        {% for i in 1..count-1 %}
+            <div class="form-group">
+                <label>Sélectionner le thème de niveau {{ i }}</label>
+                <select id="theme_{{ i }}" class="form-control" name="theme" disabled>
+                    <option id="title_theme_{{ i }}" value="stop" disabled selected>Choisir un thème</option>
+                </select>
+            </div>
+        {% endfor %}
+
+        <input {{ block('widget_attributes') }} {% if value is not empty %}value="{{ value }}" {% endif %} style="display: none"/>
+
+    {% endspaceless %}
+{% endblock %}
+
+{% block file_date_picker_widget %}
+    {% spaceless %}
+        {% set type = 'file_date_picker' %}
+        {% set type = type|default('text') %}
+        <!-- Date and time range -->
+        <div class="form-group">
+            <label>Définissez la date de début et de fin</label>
+            <div class="input-group">
+                <button class="btn btn-default pull-right" id="daterange" name="daterange">
+                    <i class="fa fa-calendar"></i>
+                    <span id="daterange"></span>
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <input type="{{ type }}" {{ block('widget_attributes') }} {% if value is not empty %}value="{{ value }}" {% endif %} style="display: none"/>
+            </div>
+        </div><!-- /.form group -->
+    {% endspaceless %}
+{% endblock %}
+
+
+
