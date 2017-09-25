@@ -1,0 +1,245 @@
+html, body {
+    height:100%;
+}
+
+.full-size{
+    padding:0;
+    height:100%;
+}
+
+.logo_box{
+    height:30%;
+    margin-left:10%;
+    width:80%;
+}
+
+.exterior_border{
+    height:100%;
+    width:100%;
+    padding: 2.5% 2.5% 2.5% 2.5%;
+    top:0;
+}
+
+.interior_border{
+    width:100%;
+    height:100%;
+    padding: 1% 1% 1% 1%;
+}
+
+.logo{
+    background-repeat:no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width:100%;
+    height:100%
+}
+
+.menu{
+    height:100%;
+    background: 60% 60%;
+    background-repeat: no-repeat;
+    padding-right:0;
+}
+
+.menu_content{
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom: 0;
+}
+
+.menu_bar{
+    margin-left:20%;
+    width:60%;
+    height:62%;
+}
+
+.menu_footer{
+    margin-left:20%;
+    width:60%;
+    height:5%;
+}
+
+.little_top{
+    height:3%;
+    margin-left:20%;
+    width:60%;
+}
+
+.glyphicon { margin-right:10px; }
+.panel-body { padding:0px; }
+.panel-body table tr td { padding-left: 15px }
+.panel-body .table {margin-bottom: 0px; }
+
+
+.nav-side-menu {
+    overflow: hidden;
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: 200;
+    width: 84%;
+    height: 100%;
+    margin-left:8%;
+    margin-right:8%;
+}
+
+.nav-side-menu .toggle-btn {
+    display: none;
+}
+.nav-side-menu ul,
+.nav-side-menu li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    line-height: 35px;
+    cursor: pointer;
+    /*
+      .collapsed{
+         .arrow:before{
+                   font-family: FontAwesome;
+                   content: "\f053";
+                   display: inline-block;
+                   padding-left:10px;
+                   padding-right: 10px;
+                   vertical-align: middle;
+                   float:right;
+              }
+       }
+  */
+}
+
+.nav-side-menu ul .sub-menu{
+    padding-bottom: 0%;
+}
+
+.nav-side-menu ul :not(collapsed) .arrow:before,
+.nav-side-menu li :not(collapsed) .arrow:before {
+    font-family: FontAwesome;
+    content: "\f078";
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: middle;
+    float: right;
+}
+.nav-side-menu ul .sub-menu li,
+.nav-side-menu li .sub-menu li {
+    border: none;
+    line-height: 28px;
+    margin-left: 0px;
+}
+.nav-side-menu li {
+    width:100%;
+    padding-left: 0px;
+}
+
+.nav-side-menu ul li a {
+    margin-top:5%;
+    margin-bottom:5%;
+}
+.nav-side-menu ul .sub-menu li a,
+.nav-side-menu li .sub-menu li a {
+    margin-top:0%;
+    margin-bottom:0%;
+}
+
+.nav-side-menu li a {
+    text-decoration: none;
+    width:100%;
+    text-align: center;
+    display:block;
+    font-size:1.5vw;
+}
+.nav-side-menu ul .sub-menu li{
+    padding-left:25%;
+}
+
+.nav-side-menu ul .sub-menu li *,
+.nav-side-menu ul .sub-menu li{
+    font-size:medium;
+    text-align: left;
+}
+
+.nav-side-menu li a i {
+    padding-left: 10px;
+    width: 20px;
+    padding-right: 20px;
+}
+.nav-side-menu li:hover {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+
+@media (max-width: 767px) {
+    .nav-side-menu {
+        position: relative;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .nav-side-menu .toggle-btn {
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        z-index: 10 !important;
+        padding: 3px;
+        background-color: #ffffff;
+        color: #000;
+        width: 40px;
+        text-align: center;
+    }
+    .brand {
+        text-align: left !important;
+        font-size: 22px;
+        padding-left: 20px;
+        line-height: 50px !important;
+    }
+}
+@media (min-width: 767px) {
+    .nav-side-menu .menu-list .menu-content {
+        display: block;
+    }
+}
+
+.right_content{
+    position: absolute;
+    width:80%;
+    height:84%;
+    top:8%;
+    left:10%;
+    border: 5px dotted;
+}
+
+.top-title{
+    width:38%;
+    margin-top:-3%;
+    margin-left:30%;
+    height:10%;
+    font-size:2.5vw;
+    text-align:center;
+}
+
+.pdf_viewer{
+    height:92%;
+}
+
+.bottom-title{
+    width:12%;
+    margin-left:43%;
+    height:6%;
+    font-size:1.5vw;
+    text-align:center;
+    box-shadow: 10px 10px ;
+}
+
+iframe{
+    border-width: 0;
+}
+

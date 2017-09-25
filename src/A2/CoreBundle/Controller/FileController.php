@@ -69,7 +69,6 @@ class FileController extends Controller
                 $em = $this->getDoctrine()->getManager();
                 $em->persist($file);
                 $em->flush();
-                $request->getSession()->getFlashBag()->add('notice', 'Annonce bien enregistrée.');
 
                 // On redirige vers la page de visualisation de l'annonce nouvellement créée
                 return $this->redirectToRoute('a2_core_accueil');

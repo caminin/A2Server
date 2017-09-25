@@ -20,17 +20,23 @@ a2_core_list_file:
 
 a2_core_categories:
     path:     /ajax/categories/list_with_parent
-    defaults: { _controller: A2CoreBundle:Category:getListCategoriesInside }
+    defaults: { _controller: A2CoreBundle:Ajax:getListCategoriesInside }
 
-a2_core_borne:
-    path:       /borne
+tmp_a2_core_borne:
+    path:       /test/borne/accueil
     defaults:   { _controller: A2CoreBundle:Borne:index}
 
-tmp_a2_core_settings:
-    path:     /settings
-    defaults: { _controller: A2CoreBundle:Theme:index }
+tmp_a2_core_content_test:
+    path:       /test/borne/content/{category}
+    defaults:
+            _controller:  A2CoreBundle:Borne:content
+            category:     0
 
-tmp_a2_core_theme_test:
-    path:       /test/theme
-    defaults:   { _controller: A2CoreBundle:Theme:index }
+tmp_a2_core_theme_home:
+    path:       /test/settings/theme/home
+    defaults:   { _controller: A2CoreBundle:Theme:Home4Columns }
+
+tmp_a2_core_theme_content:
+    path:       /test/settings/theme/content
+    defaults:   { _controller: A2CoreBundle:Theme:ContentRestaurant }
 

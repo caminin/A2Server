@@ -6,9 +6,26 @@
         body {
             background-color: #{{ entity.colorBackground }};
         }
+
+        .category_text{
+            background-color:#{{ entity.colorCategories }};
+            border-top:none;
+            border-bottom: none;
+            border-right: 7px solid #{{ entity.colorBorderCategories }};
+            border-left: 7px solid #{{ entity.colorBorderCategories }};
+        }
+
     </style>
 
 
+{% endblock %}
+
+{% block js %}
+    <script type="text/javascript">
+        function goto_content(category_id){
+            window.location.href = '{{ content_url }}/'+category_id;
+        }
+    </script>
 {% endblock %}
 
 {% block body %}
@@ -19,27 +36,27 @@
     </div>
 
     <div class="image border row" >
-        <div class="border box image1 col-sm-3" >
+        <div class="border box image1 col-sm-3" onclick="goto_content({{ entity.categoryLeft.id }});">
             <div class="full-size" style='background-image:url("{{ vich_uploader_asset(entity, 'imageLeftFile') }}")'>
-                <p class="category_text" style="background-color:#{{ entity.colorCategories }}">plop</p>
+                <p class="category_text" >{{ entity.categoryLeft.categoriesName }}</p>
             </div>
         </div>
 
-        <div class="border box image2 col-sm-3" >
+        <div class="border box image2 col-sm-3" onclick="goto_content({{ entity.categoryLeftCenter.id }}); ">
             <div class="full-size" style='background-image:url("{{ vich_uploader_asset(entity, 'imageLeftCenterFile') }}")'>
-                <p class="category_text" style="background-color:#{{ entity.colorCategories }}">plop</p>
+                <p class="category_text" >{{ entity.categoryLeftCenter.categoriesName }}</p>
             </div>
         </div>
 
-        <div class="border box image3 col-sm-3">
+        <div class="border box image3 col-sm-3" onclick="goto_content({{ entity.categoryRightCenter.id }});">
             <div class="full-size" style='background-image:url("{{ vich_uploader_asset(entity, 'imageRightCenterFile') }}")'>
-                <p class="category_text" style="background-color:#{{ entity.colorCategories }}">plop</p>
+                <p class="category_text" >{{ entity.categoryRightCenter.categoriesName }}</p>
             </div>
         </div>
 
-        <div class="border box image4 col-sm-3">
+        <div class="border box image4 col-sm-3" onclick="goto_content({{ entity.categoryRight.id }});">
             <div class="full-size" style='background-image:url("{{ vich_uploader_asset(entity, 'imageRightFile') }}")'>
-                <p class="category_text" style="background-color:#{{ entity.colorCategories }}">plop</p>
+                <p class="category_text">{{ entity.categoryRight.categoriesName }}</p>
             </div>
         </div>
     </div>

@@ -41,6 +41,10 @@ twig:
     strict_variables: '%kernel.debug%'
     globals:
       titre_url: "%titre_url%"
+      home_url: "%home_url%"
+      content_url: "%content_url%"
+      ajax_get_pdf_by_category: "%ajax_get_pdf_by_category%"
+
     form_themes:
       - 'XmonColorPickerTypeBundle:Form:fields.html.twig'
       - 'bootstrap_3_layout.html.twig'

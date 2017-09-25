@@ -1,0 +1,162 @@
+{% extends "A2CoreBundle:Kiosk/Layout:kiosk_layout.html.twig" %}
+
+{% block css %}
+    <link rel="stylesheet" href="{{ asset('bundles/a2core/css/borne/restaurant.css') }}">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+        .menu,
+        .interior_border,
+        .nav-side-menu ul .active,
+        .nav-side-menu li .active,
+        .full-right-area{
+            background-color: #{{ entity.colorBackground }};
+        }
+        .nav-side-menu li a {
+            color:#{{ entity.colorBackground }};
+        }
+
+        .exterior_border,
+        .top-title,
+        .bottom-title,
+        .menu_content,
+        .menu_footer,
+        .little_top,
+        .menu_bar,
+        .nav-side-menu ul .sub-menu li,
+        .nav-side-menu li .sub-menu li{
+            background-color: #{{ entity.colorMenu }};
+        }
+
+        .nav-side-menu ul .active a {
+            color:#{{ entity.colorDots }};
+        }
+        .right_content{
+            border-color:#{{ entity.colorDots }};
+        }
+
+        .top-title,
+        .bottom-title,
+        .nav-side-menu ul .sub-menu li.active a,
+        .nav-side-menu li .sub-menu li.active a,
+        .menu_footer{
+            color:#{{ entity.colorLogo }}
+        }
+
+        .bottom-title{
+            box-shadow:4px 4px #811c49;;
+        }
+
+        .nav-side-menu ul .sub-menu li a,
+        .nav-side-menu li .sub-menu li a {
+            color: #555555;
+        }
+
+        .menu_footer{
+            text-align:center;
+    </style>
+
+
+{% endblock %}
+
+{% block js %}
+    <script src="{{ asset('bundles/a2core/js/switch_pdf_files.js') }}"></script>
+    <script type="text/javascript">
+        function home(){
+            window.location.href = '{{ home_url }}';
+        }
+    </script>
+{% endblock %}
+
+{% block body %}
+
+    <div class="border row full-size" >
+        <div class="border col-sm-3 menu panel-group" id="accordion" >
+            <div class="menu_content little_top" >
+            </div>
+            <div class="logo_box" >
+                <div class="exterior_border">
+                    <div class="interior_border">
+                        <div class="logo full-size" style='background-image:url("{{ asset('images/themes/logo.png') }}")'></div>
+                    </div>
+
+                </div>
+                </div>
+            <div class="menu_content menu_bar panel-group" id="accordion" >
+                <div class="nav-side-menu">
+
+                    <div class="menu-list">
+
+                        <ul id="menu-content" class="menu-content collapse in">
+                            {% for category in categories %}
+                                <li data-toggle="collapse" data-target="#submenu{{ category.id }}"
+                                    {% if category.id == activated.id or activated.categoriesIdParent is not null and category.id == activated.categoriesIdParent.id  %}
+                                        class="active" aria-expanded="true"
+                                    {% else %}
+                                        class="collapsed"
+                                    {% endif %}
+                                >
+                                    {% if childs[category.id]|length > 0 %}
+                                        <a href="#">
+                                            {{ category.categoriesName }}
+                                        </a>
+                                    {% else %}
+                                        <a href="#">
+                                            {{ category.categoriesName }}
+                                        </a>
+                                    {% endif %}
+
+
+                                </li>
+
+                                {% if childs[category.id]|length > 0 %}
+                                    <ul  id="submenu{{ category.id }}"
+                                            {% if category.id == activated.id or activated.categoriesIdParent is not null and category.id == activated.categoriesIdParent.id  %}
+                                                class="sub-menu collapse in"
+                                            {% else %}
+                                                class="sub-menu collapse"
+                                            {% endif %}
+                                    >
+                                        {% for child in childs[category.id] %}
+                                            <li
+                                                {% if child.id == activated.id %}
+                                                    class="active"
+                                                {% endif %}
+                                            >
+                                                <a onclick='document.getElementById("pdf_viewer").src="{{ asset("plugins/pdf_viewer/web/viewer.html") }}?file={% if child.id in files|keys %}/images{{ vich_uploader_asset(files[child.id],"imageFile") }}{% endif %}";'>{{ child.categoriesName }}</a>
+                                            </li>
+                                        {% endfor %}
+                                    </ul>
+                                {% endif %}
+                            {% endfor %}
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu_content menu_footer">
+                DESIGNED BY A2DISPLAY
+            </div>
+        </div>
+
+
+        <div class="col-sm-9 full-size full-right-area" >
+            <div class="right_content">
+                <div class="top-title">
+                    {{ activated.categoriesName }}
+                </div>
+
+                <div class="pdf_viewer">
+                    <iframe id="pdf_viewer" src="{{ asset("plugins/pdf_viewer/web/viewer.html") }}?file={{ asset("images/(11) Apéritifs.pdf") }}" width="100%" height="100%">
+                    </iframe>
+
+                </div>
+
+                <div class="bottom-title" onclick="home();">
+                    Accueil
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
