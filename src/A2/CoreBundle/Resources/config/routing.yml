@@ -22,6 +22,10 @@ a2_core_categories:
     path:     /ajax/categories/list_with_parent
     defaults: { _controller: A2CoreBundle:Ajax:getListCategoriesInside }
 
+a2_core_settings:
+    path:     /settings
+    defaults: { _controller: A2CoreBundle:Home:settings }
+
 tmp_a2_core_borne:
     path:       /test/borne/accueil
     defaults:   { _controller: A2CoreBundle:Borne:index}

@@ -25,7 +25,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/config/config.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="692">
@@ -48,7 +48,7 @@
       <file leaf-file-name="restaurant.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Kiosk/Content/restaurant.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
+            <state relative-caret-position="17">
               <caret line="87" column="69" lean-forward="false" selection-start-line="87" selection-start-column="69" selection-end-line="87" selection-end-column="69" />
               <folding>
                 <element signature="e#66#1560#0#Twig" expanded="false" />
@@ -57,73 +57,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.html.twig" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Pages/settings.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="505">
-              <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContentRestaurant.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Entity/ContentRestaurant.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DisplayDate.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Entity/DisplayDate.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="27" column="101" lean-forward="false" selection-start-line="27" selection-start-column="101" selection-end-line="27" selection-end-column="101" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Files.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Entity/Files.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="36" column="83" lean-forward="false" selection-start-line="36" selection-start-column="83" selection-end-line="36" selection-end-column="83" />
+              <caret line="48" column="34" lean-forward="true" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
               <folding>
-                <element signature="e#40#72#0#PHP" expanded="true" />
+                <element signature="e#1110#1142#0#HTML" expanded="true" />
+                <element signature="e#1340#1409#0#HTML" expanded="true" />
+                <element signature="e#1593#1662#0#HTML" expanded="true" />
+                <element signature="e#1887#1956#0#HTML" expanded="true" />
+                <element signature="e#2192#2261#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Home4Columns.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Entity/Home4Columns.php">
+      <file leaf-file-name="main_layout.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Layout/main_layout.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="31" column="107" lean-forward="false" selection-start-line="31" selection-start-column="107" selection-end-line="31" selection-end-column="107" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Menus.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Entity/Menus.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="-804">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Parameters.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Entity/Parameters.php">
+      <file leaf-file-name="routing.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Resources/config/routing.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-357">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="663">
+              <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -177,7 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/bundles/a2core/css/borne/borne_layout.css" />
         <option value="$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Kiosk/Layout/kiosk_layout.html.twig" />
         <option value="$PROJECT_DIR$/web/bundles/a2core/css/borne/4_categories_columns.css" />
         <option value="$PROJECT_DIR$/src/A2/CoreBundle/Entity/Theme/Home_4_Columns.php" />
@@ -186,7 +149,6 @@
         <option value="$PROJECT_DIR$/src/A2/CoreBundle/Controller/ThemeController" />
         <option value="$PROJECT_DIR$/src/A2/CoreBundle/Form/Home_4_ColumnsType.php" />
         <option value="$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Test/test_categories.html.twig" />
-        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Controller/HomeController.php" />
         <option value="$PROJECT_DIR$/src/A2/CoreBundle/Form/Theme/FileListCategoryType.php" />
         <option value="$PROJECT_DIR$/src/A2/CoreBundle/Form/FilesType.php" />
         <option value="$PROJECT_DIR$/src/A2/CoreBundle/Form/Type/Theme/FileListCategoryType.php" />
@@ -219,7 +181,6 @@
         <option value="$PROJECT_DIR$/src/A2/CoreBundle/Controller/CategoryController.php" />
         <option value="$PROJECT_DIR$/src/A2/CoreBundle/Controller/AjaxController.php" />
         <option value="$PROJECT_DIR$/src/A2/CoreBundle/Controller/BorneController.php" />
-        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/A2/CoreBundle/Controller/FileController.php" />
         <option value="$PROJECT_DIR$/src/A2/CoreBundle/Entity/Home4Columns.php" />
         <option value="$PROJECT_DIR$/src/A2/CoreBundle/Entity/DisplayDate.php" />
@@ -227,6 +188,9 @@
         <option value="$PROJECT_DIR$/app/config/config.yml" />
         <option value="$PROJECT_DIR$/src/A2/CoreBundle/Entity/Categories.php" />
         <option value="$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Kiosk/Content/restaurant.html.twig" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Layout/menu_layout.html.twig" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Controller/HomeController.php" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Pages/settings.html.twig" />
       </list>
     </option>
@@ -323,23 +287,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="A2Server" type="b2602c69:ProjectViewProjectNode" />
               <item name="A2Server" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="A2Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="A2Server" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="A2Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="A2Server" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="A2Server" type="b2602c69:ProjectViewProjectNode" />
@@ -366,14 +320,6 @@
               <item name="A2" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="CoreBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="A2Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="A2Server" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="A2" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="CoreBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="A2Server" type="b2602c69:ProjectViewProjectNode" />
@@ -460,6 +406,16 @@
               <item name="CoreBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Layout" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="A2Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="A2Server" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="A2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="CoreBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Pages" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -472,7 +428,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -552,20 +507,21 @@
       <workItem from="1506328404473" duration="1263000" />
       <workItem from="1506347008809" duration="4739000" />
       <workItem from="1506412012084" duration="9729000" />
+      <workItem from="1506525035274" duration="971000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="271870000" />
+    <option name="totallyTimeSpent" value="272841000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2378" y="364" width="1920" height="1044" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21504803" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2171825" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32822758" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947367" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -577,6 +533,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947367" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -593,20 +550,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Form/Type/AddFile/FileCategoryType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Form/Type/AddFile/FileDatePickerType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Form/Type/AddFile/FileDisplayTypeType.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -807,14 +750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Controller/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="86" lean-forward="false" selection-start-line="15" selection-start-column="86" selection-end-line="15" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -858,22 +793,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="72" lean-forward="false" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Controller/MenuController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="38" column="52" lean-forward="false" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Controller/BorneController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -886,7 +805,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Entity/ContentRestaurant.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
+        <state relative-caret-position="238">
           <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
           <folding />
         </state>
@@ -902,7 +821,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Entity/Files.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
+        <state relative-caret-position="544">
           <caret line="36" column="83" lean-forward="false" selection-start-line="36" selection-start-column="83" selection-end-line="36" selection-end-column="83" />
           <folding>
             <element signature="e#40#72#0#PHP" expanded="true" />
@@ -912,7 +831,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Entity/Home4Columns.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
+        <state relative-caret-position="442">
           <caret line="31" column="107" lean-forward="false" selection-start-line="31" selection-start-column="107" selection-end-line="31" selection-end-column="107" />
           <folding />
         </state>
@@ -928,7 +847,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Entity/Parameters.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -938,7 +857,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
           <caret line="56" column="93" lean-forward="false" selection-start-line="56" selection-start-column="93" selection-end-line="56" selection-end-column="93" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -950,21 +868,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Kiosk/Content/restaurant.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Layout/menu_layout.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="87" column="69" lean-forward="false" selection-start-line="87" selection-start-column="69" selection-end-line="87" selection-end-column="69" />
+        <state relative-caret-position="357">
+          <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Layout/main_layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-804">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Controller/MenuController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="38" column="52" lean-forward="false" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Controller/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding>
-            <element signature="e#66#1560#0#Twig" expanded="false" />
+            <element signature="e#468#507#1#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Pages/settings.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Resources/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        <state relative-caret-position="663">
+          <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="41" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Kiosk/Content/restaurant.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="87" column="69" lean-forward="false" selection-start-line="87" selection-start-column="69" selection-end-line="87" selection-end-column="69" />
+          <folding>
+            <element signature="e#66#1560#0#Twig" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -973,6 +925,20 @@
         <state relative-caret-position="692">
           <caret line="110" column="60" lean-forward="false" selection-start-line="110" selection-start-column="60" selection-end-line="110" selection-end-column="60" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Pages/settings.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="48" column="34" lean-forward="true" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
+          <folding>
+            <element signature="e#1110#1142#0#HTML" expanded="true" />
+            <element signature="e#1340#1409#0#HTML" expanded="true" />
+            <element signature="e#1593#1662#0#HTML" expanded="true" />
+            <element signature="e#1887#1956#0#HTML" expanded="true" />
+            <element signature="e#2192#2261#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

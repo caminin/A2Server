@@ -20,7 +20,6 @@
 {% endblock %}
 
 {% block body %}
-{% form_theme form '@A2Core/Form/file_form_view.html.twig' %}
 
 
     <div class="content-wrapper">
@@ -35,6 +34,25 @@
                 <li class="active">Ecran</li>
             </ol>
         </section>
+
+            <div class="col-lg-12" style="width:100%;height:100px;">
+            </div>
+
+            <div class="col-lg-3">
+                <a href="/app_dev.php/admin" type="button" class="btn btn-block btn-success btn-lg" class="btn btn-block btn-warning btn-lg" style="line-height:140px;margin-right:20%; height:160px;width:160px;">Catégories</a>
+            </div>
+
+            <div class="col-lg-3">
+                <a href="/app_dev.php/test/borne/accueil" type="button" class="btn btn-block btn-warning btn-lg" style="line-height:140px;margin-right:20%; height:160px;width:160px;">Borne</a>
+            </div>
+
+            <div class="col-lg-3">
+                <a href="/app_dev.php/test/settings/theme/home" type="button" class="btn btn-block btn-danger btn-lg" class="btn btn-block btn-warning btn-lg" style="line-height:140px;margin-right:20%; height:160px;width:160px;">Thème Accueil</a>
+            </div>
+
+            <div class="col-lg-3">
+                <a href="/app_dev.php/test/settings/theme/content" type="button" class="btn btn-block btn-danger btn-lg" class="btn btn-block btn-warning btn-lg" style="line-height:140px;margin-right:20%; height:160px;width:160px;">Thème Contenu</a>
+            </div>
 
         <!-- Main content -->
         <section class="content">

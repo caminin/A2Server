@@ -18,4 +18,11 @@ class HomeController extends Controller
         return new Response($content);
     }
 
+    public function settingsAction()
+    {
+        $content = $this->get('templating')->render('A2CoreBundle:Pages:settings.html.twig');
+
+        return new Response($content);
+    }
+
 }
