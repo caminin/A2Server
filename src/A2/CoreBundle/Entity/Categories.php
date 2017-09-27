@@ -26,8 +26,8 @@ class Categories implements JsonSerializable
     private $id;
 
     /**
-     * @ManyToOne(targetEntity="categories", cascade={"remove"})
-     * @JoinColumn(name="categories_id_parent", referencedColumnName="id", nullable=true)
+     * @ManyToOne(targetEntity="A2\CoreBundle\Entity\Categories",cascade={"remove"})
+     * @JoinColumn(name="categories_id_parent", referencedColumnName="id", nullable=true,onDelete="CASCADE")
      *
      */
     private $categoriesIdParent;
@@ -60,7 +60,7 @@ class Categories implements JsonSerializable
     /**
      * Set categoriesIdParent
      *
-     * @param string $categoriesIdParent
+     * @param Categories $categoriesIdParent
      *
      * @return Categories
      */
@@ -74,7 +74,7 @@ class Categories implements JsonSerializable
     /**
      * Get categoriesIdParent
      *
-     * @return string
+     * @return Categories
      */
     public function getCategoriesIdParent()
     {
@@ -138,4 +138,11 @@ class Categories implements JsonSerializable
             'categoriesName'=> $this->categoriesName,
         );
     }
+
+    public function __toString()
+    {
+        return $this->categoriesName;
+    }
+
+
 }

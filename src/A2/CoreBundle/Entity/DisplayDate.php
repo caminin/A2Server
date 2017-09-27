@@ -25,7 +25,7 @@ class DisplayDate
 
     /**
      * @ManyToOne(targetEntity="A2\CoreBundle\Entity\Files", cascade={"remove"})
-     * @JoinColumn(name="date_files_id", referencedColumnName="id", nullable=false)
+     * @JoinColumn(name="date_files_id", referencedColumnName="id", nullable=false, onDelete="CASCADE")
      */
     private $dateFilesId;
 

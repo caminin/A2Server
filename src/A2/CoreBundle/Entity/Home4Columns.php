@@ -29,25 +29,25 @@ class Home4Columns
 
     /**
      * @ManyToOne(targetEntity="A2\CoreBundle\Entity\Categories", cascade={"persist"})
-     * @JoinColumn(name="categories_id_left", referencedColumnName="id", nullable=false)
+     * @JoinColumn(name="categories_id_left", referencedColumnName="id", nullable=false, onDelete="CASCADE")
      */
     private $categoryLeft;
 
     /**
      * @ManyToOne(targetEntity="A2\CoreBundle\Entity\Categories", cascade={"persist"})
-     * @JoinColumn(name="categories_id_left_center", referencedColumnName="id", nullable=false)
+     * @JoinColumn(name="categories_id_left_center", referencedColumnName="id", nullable=false, onDelete="CASCADE")
      */
     private $categoryLeftCenter;
 
     /**
      * @ManyToOne(targetEntity="A2\CoreBundle\Entity\Categories", cascade={"persist"})
-     * @JoinColumn(name="categories_id_right_center", referencedColumnName="id", nullable=false)
+     * @JoinColumn(name="categories_id_right_center", referencedColumnName="id", nullable=false, onDelete="CASCADE")
      */
     private $categoryRightCenter;
 
     /**
      * @ManyToOne(targetEntity="A2\CoreBundle\Entity\Categories", cascade={"persist"})
-     * @JoinColumn(name="categories_id_right", referencedColumnName="id", nullable=false)
+     * @JoinColumn(name="categories_id_right", referencedColumnName="id", nullable=false, onDelete="CASCADE")
      */
     private $categoryRight;
 

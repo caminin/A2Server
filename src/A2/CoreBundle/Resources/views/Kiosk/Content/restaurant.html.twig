@@ -64,6 +64,15 @@
         function home(){
             window.location.href = '{{ home_url }}';
         }
+        $( document ).ready(function() {
+            $('.toggle').click(function() {
+                if ( !$(this).next().hasClass('in') ) {
+                    $(this).parent().children('.collapse.in').collapse('hide');
+                }
+                $(this).next().collapse('toggle');
+            });
+        });
+
     </script>
 {% endblock %}
 
@@ -76,9 +85,8 @@
             <div class="logo_box" >
                 <div class="exterior_border">
                     <div class="interior_border">
-                        <div class="logo full-size" style='background-image:url("{{ asset('images/themes/logo.png') }}")'></div>
+                        <div class="logo full-size" onclick="home();" style='background-image:url("{{ asset('images/themes/logo.png') }}")'></div>
                     </div>
-
                 </div>
                 </div>
             <div class="menu_content menu_bar panel-group" id="accordion" >
@@ -90,9 +98,9 @@
                             {% for category in categories %}
                                 <li data-toggle="collapse" data-target="#submenu{{ category.id }}"
                                     {% if category.id == activated.id or activated.categoriesIdParent is not null and category.id == activated.categoriesIdParent.id  %}
-                                        class="active" aria-expanded="true"
+                                        class="toggle active" aria-expanded="true"
                                     {% else %}
-                                        class="collapsed"
+                                        class="toggle collapsed"
                                     {% endif %}
                                 >
                                     {% if childs[category.id]|length > 0 %}
@@ -125,6 +133,9 @@
                                                 <a onclick='document.getElementById("pdf_viewer").src="{{ asset("plugins/pdf_viewer/web/viewer.html") }}?file={% if child.id in files|keys %}/images{{ vich_uploader_asset(files[child.id],"imageFile") }}{% endif %}";'>{{ child.categoriesName }}</a>
                                             </li>
                                         {% endfor %}
+                                    </ul>
+                                {% else %}
+                                    <ul  id="submenu{{ category.id }}" class="sub-menu collapse">
                                     </ul>
                                 {% endif %}
                             {% endfor %}

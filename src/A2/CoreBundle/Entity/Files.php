@@ -34,8 +34,8 @@ class Files
     private $filesName;
 
     /**
-     * @ManyToOne(targetEntity="A2\CoreBundle\Entity\Categories", cascade={"remove"})
-     * @JoinColumn(name="categories_id", referencedColumnName="id", nullable=false)
+     * @ManyToOne(targetEntity="A2\CoreBundle\Entity\Categories", cascade={"persist"})
+     * @JoinColumn(name="categories_id", referencedColumnName="id", nullable=false, onDelete="CASCADE")
      */
     private $filesCategory;
 

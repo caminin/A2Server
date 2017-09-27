@@ -98,21 +98,17 @@ vich_uploader:
               service: vich_uploader.namer_origname
 easy_admin:
     entities:
-        Files:
-            label : "Files"
-            class : A2\CoreBundle\Entity\Files
-            # ...
-            list:
-                fields:
-                    - { property: 'image', type: 'image', base_path: '%app.path.files%' }
-            # ...
-            show:
-                fields:
-                    - { property: 'image', type: 'image', base_path: '%app.path.files%' }
+        Categories:
+            label: "Categories"
+            class : A2\CoreBundle\Entity\Categories
 
-            form:
-                fields:
-                    - { property: 'imageFile', type: 'file' }
+        Files:
+                    label: "Files"
+                    class : A2\CoreBundle\Entity\Files
+
+        DisplayDate:
+                    label: "DisplayDate"
+                    class : A2\CoreBundle\Entity\DisplayDate
                     
                     
 assetic:
