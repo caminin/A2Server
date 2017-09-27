@@ -28,8 +28,8 @@
       <file leaf-file-name="restaurant.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Kiosk/Content/restaurant.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="556">
-              <caret line="160" column="111" lean-forward="false" selection-start-line="160" selection-start-column="111" selection-end-line="160" selection-end-column="111" />
+            <state relative-caret-position="374">
+              <caret line="84" column="41" lean-forward="false" selection-start-line="84" selection-start-column="41" selection-end-line="84" selection-end-column="41" />
               <folding>
                 <element signature="e#66#1560#0#Twig" expanded="false" />
               </folding>
@@ -37,14 +37,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BorneController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Controller/BorneController.php">
+      <file leaf-file-name="4_categories_columns.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Kiosk/Home/4_categories_columns.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="658">
-              <caret line="106" column="21" lean-forward="false" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="21" />
-              <folding>
-                <element signature="e#44#101#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="595">
+              <caret line="56" column="55" lean-forward="false" selection-start-line="56" selection-start-column="55" selection-end-line="56" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="restaurant.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Resources/public/css/borne/restaurant.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="4_categories_columns.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Resources/public/css/borne/4_categories_columns.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -116,10 +134,8 @@
         <option value="$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Form/theme_form_view.html.twig" />
         <option value="$PROJECT_DIR$/src/A2/CoreBundle/Form/Type/Theme/Home_4_ColumnsType.php" />
         <option value="$PROJECT_DIR$/web/plugins/pdf_viewer/web/viewer.html" />
-        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Resources/public/css/borne/restaurant.css" />
         <option value="$PROJECT_DIR$/web/plugins/pdf_viewer/web/viewer.js" />
         <option value="$PROJECT_DIR$/web/plugins/pdf_viewer/web/viewer.css" />
-        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Resources/public/css/borne/4_categories_columns.css" />
         <option value="$PROJECT_DIR$/src/A2/CoreBundle/Form/Type/Theme/Content_RestaurantType.php" />
         <option value="$PROJECT_DIR$/src/A2/CoreBundle/Entity/Home_4_Columns.php" />
         <option value="$PROJECT_DIR$/src/A2/CoreBundle/Form/Type/Theme/Home4ColumnsType.php" />
@@ -130,7 +146,6 @@
         <option value="$PROJECT_DIR$/src/A2/CoreBundle/Repository/Content_RestaurantRepository.php" />
         <option value="$PROJECT_DIR$/var/sessions/dev/sess_0a9ddi1enqilforkhibd4u0tma6fg8d2pf4pcv49jchpm3ld8vp1" />
         <option value="$PROJECT_DIR$/src/A2/CoreBundle/Controller/ThemeController.php" />
-        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Kiosk/Home/4_categories_columns.html.twig" />
         <option value="$PROJECT_DIR$/src/A2/CoreBundle/Resources/public/js/switch_pdf_files.js" />
         <option value="$PROJECT_DIR$/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/web/bundles/a2core/js/switch_pdf_files.js" />
@@ -147,7 +162,10 @@
         <option value="$PROJECT_DIR$/src/A2/CoreBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Pages/settings.html.twig" />
         <option value="$PROJECT_DIR$/src/A2/CoreBundle/Controller/BorneController.php" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Resources/public/css/borne/4_categories_columns.css" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Kiosk/Home/4_categories_columns.html.twig" />
         <option value="$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Kiosk/Content/restaurant.html.twig" />
+        <option value="$PROJECT_DIR$/src/A2/CoreBundle/Resources/public/css/borne/restaurant.css" />
       </list>
     </option>
   </component>
@@ -243,6 +261,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -318,6 +337,27 @@
               <item name="CoreBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="A2Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="A2Server" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="A2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="CoreBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="borne" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="A2Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="A2Server" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="A2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="CoreBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -364,26 +404,6 @@
             <path>
               <item name="A2Server" type="b2602c69:ProjectViewProjectNode" />
               <item name="A2Server" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="A2" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="CoreBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Layout" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="A2Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="A2Server" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="A2" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="CoreBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Pages" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="A2Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="A2Server" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
@@ -391,7 +411,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -473,17 +492,18 @@
       <workItem from="1506412012084" duration="9729000" />
       <workItem from="1506525035274" duration="971000" />
       <workItem from="1506527010341" duration="1729000" />
+      <workItem from="1506528917176" duration="629000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="274570000" />
+    <option name="totallyTimeSpent" value="275199000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2378" y="364" width="1920" height="1044" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21931697" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22198506" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32822758" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -557,13 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Resources/public/css/borne/restaurant.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="766">
-          <caret line="242" column="20" lean-forward="false" selection-start-line="242" selection-start-column="20" selection-end-line="242" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Form/Type/Theme/ListCategoryType.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -582,13 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Resources/public/css/borne/4_categories_columns.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -792,13 +798,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Kiosk/Home/4_categories_columns.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="56" column="93" lean-forward="false" selection-start-line="56" selection-start-column="93" selection-end-line="56" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Layout/menu_layout.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -828,7 +827,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -836,7 +834,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="110" column="60" lean-forward="false" selection-start-line="110" selection-start-column="60" selection-end-line="110" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -844,7 +841,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-804">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -852,7 +848,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="505">
           <caret line="48" column="34" lean-forward="false" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -860,7 +855,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -882,7 +876,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Controller/BorneController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
+        <state relative-caret-position="1768">
           <caret line="106" column="21" lean-forward="false" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="21" />
           <folding>
             <element signature="e#44#101#0#PHP" expanded="true" />
@@ -890,10 +884,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Resources/public/css/borne/4_categories_columns.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Resources/public/css/borne/restaurant.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Kiosk/Home/4_categories_columns.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="56" column="55" lean-forward="false" selection-start-line="56" selection-start-column="55" selection-end-line="56" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/A2/CoreBundle/Resources/views/Kiosk/Content/restaurant.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="160" column="111" lean-forward="false" selection-start-line="160" selection-start-column="111" selection-end-line="160" selection-end-column="111" />
+        <state relative-caret-position="374">
+          <caret line="84" column="41" lean-forward="false" selection-start-line="84" selection-start-column="41" selection-end-line="84" selection-end-column="41" />
           <folding>
             <element signature="e#66#1560#0#Twig" expanded="false" />
           </folding>

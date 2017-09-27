@@ -2,6 +2,19 @@ html, body {
     height:100%;
 }
 
+.mybutton{
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    cursor: pointer;
+}
+
+.mybutton:active {
+    margin-top:6px;
+
+}
+
 .full-size{
     padding:0;
     height:100%;
