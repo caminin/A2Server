@@ -83,8 +83,20 @@ class BorneController extends Controller
             }
             $array_childs=array();
             foreach($full_list_categories as $all_category){
-                if($all_category->getCategoriesIdParent() == $category){
+                if($all_category->getCategoriesIdParent() === $category){
                     $array_childs[]=$all_category;
+                    $result=$repository_files->findBy(
+                        array('filesCategory' => $all_category->getId()),
+                        array('id' => 'DESC'),
+                        1
+                    );
+                    if(count($result) > 0){
+                        $files[$all_category->getId()]= $result[0];
+                    }
+                }
+
+                if($all_category->getCategoriesIdParent() === $activated){
+                    $activated=$all_category;
                     $result=$repository_files->findBy(
                         array('filesCategory' => $all_category->getId()),
                         array('id' => 'DESC'),

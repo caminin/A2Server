@@ -158,7 +158,7 @@
                 </div>
 
                 <div class="pdf_viewer">
-                    <iframe id="pdf_viewer" src="{{ asset("plugins/pdf_viewer/web/viewer.html") }}?file={{ asset("images/(11) Apéritifs.pdf") }}" width="100%" height="100%">
+                    <iframe id="pdf_viewer" src="{{ asset("plugins/pdf_viewer/web/viewer.html") }}?file=/images{{ vich_uploader_asset(files[activated.id],"imageFile") }}" width="100%" height="100%">
                     </iframe>
 
                 </div>
